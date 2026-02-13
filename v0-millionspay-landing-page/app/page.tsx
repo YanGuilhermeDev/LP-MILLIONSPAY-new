@@ -1,9 +1,9 @@
 import { Header } from "@/components/landing/header"
 import { HeroSection } from "@/components/landing/hero-section"
-import { TaxasSection } from "@/components/landing/taxas-section"
 import { BeneficiosSection } from "@/components/landing/beneficios-section"
 import { SolucoesSection } from "@/components/landing/solucoes-section"
-import { ParceirosSection } from "@/components/landing/parceiros-section"
+import { TaxasSection } from "@/components/landing/taxas-section"
+import { TestimonialSection } from "@/components/landing/testimonial-section"
 import { PremiacoesSection } from "@/components/landing/premiacoes-section"
 import { FormularioSection } from "@/components/landing/formulario-section"
 import { DuvidasSection } from "@/components/landing/duvidas-section"
@@ -12,34 +12,34 @@ import { CTASection } from "@/components/landing/cta-section"
 export default function Home() {
   return (
     <main className="min-h-screen">
-      {/* Header / Navegação - somente na home */}
+      {/* Header / Navegação */}
       <Header />
 
-      {/* Hero com Dashboard e Integrações */}
+      {/* Section Home */}
       <HeroSection />
 
-      {/* Seção de Taxas */}
-      <TaxasSection />
-
-      {/* Seção de Benefícios */}
+      {/* Section Benefícios */}
       <BeneficiosSection />
 
-      {/* Seção de Soluções */}
+      {/* Section Soluções */}
       <SolucoesSection />
 
-      {/* Seção de Parceiros */}
-      <ParceirosSection />
+      {/* Section Taxas */}
+      <TaxasSection />
 
-      {/* Seção de Premiações */}
+      {/* Section Depoimentos */}
+      <TestimonialSection />
+
+      {/* Section Placas (Premiações) */}
       <PremiacoesSection />
 
-      {/* Seção de Formulário */}
+      {/* Section Formulário */}
       <FormularioSection />
 
-      {/* Seção de Dúvidas */}
+      {/* Section Dúvidas */}
       <DuvidasSection />
 
-      {/* Seção de CTA */}
+      {/* Section CTA */}
       <CTASection />
     </main>
   )

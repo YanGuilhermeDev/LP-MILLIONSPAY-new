@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button"
 // DADOS DO CTA - EDITE AQUI
 // ============================================
 const ctaData = {
-  titulo: "Pronto para transformar seus pagamentos?",
+  titulo: "Receba pagamentos de forma simples e segura",
   descricao:
     "Junte-se a mais de 50.000 empresas que já confiam na Millionspay para processar seus pagamentos de forma segura e eficiente.",
   primaryCTA: "Começar Gratuitamente",

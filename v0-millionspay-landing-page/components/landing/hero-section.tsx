@@ -7,8 +7,8 @@ import { Button } from "@/components/ui/button"
 
 const heroData = {
   badge: "Gateway de Pagamentos #1 do Brasil",
-  title: "Receba pagamentos de forma",
-  titleHighlight: "simples e segura",
+  title: "Pronto para transformar",
+  titleHighlight: "seus pagamentos?",
   description:
     "A Millionspay oferece a solução completa para o seu negócio. Taxas competitivas, integrações ágeis e um sistema anti-fraude de última geração.",
   primaryCTA: "Começar Agora",
