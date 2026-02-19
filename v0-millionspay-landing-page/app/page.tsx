@@ -5,6 +5,7 @@ import { BeneficiosSection } from "@/components/landing/beneficios-section"
 import { SolucoesSection } from "@/components/landing/solucoes-section"
 import { ParceirosSection } from "@/components/landing/parceiros-section"
 import { PremiacoesSection } from "@/components/landing/premiacoes-section"
+import { TestimonialSection } from "@/components/landing/testimonial-section"
 import { FormularioSection } from "@/components/landing/formulario-section"
 import { DuvidasSection } from "@/components/landing/duvidas-section"
 import { CTASection } from "@/components/landing/cta-section"
@@ -32,6 +33,9 @@ export default function Home() {
 
       {/* Seção de Premiações */}
       <PremiacoesSection />
+
+      {/* Seção de Depoimentos */}
+      <TestimonialSection />
 
       {/* Seção de Formulário */}
       <FormularioSection />
