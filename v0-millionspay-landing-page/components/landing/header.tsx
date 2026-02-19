@@ -174,7 +174,7 @@ export function Header() {
             ))}
             <div className="flex flex-col gap-3 pt-4 border-t border-border">
               <Button variant="outline" className="w-full bg-transparent border-primary/20" asChild>
-                <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">Fale com Vendas</a>
+                <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">Fale com suporte</a>
               </Button>
               <Button className="w-full bg-primary text-primary-foreground shadow-md" asChild>
                 <a href={REGISTER_URL} target="_blank" rel="noopener noreferrer">Começar Agora</a>

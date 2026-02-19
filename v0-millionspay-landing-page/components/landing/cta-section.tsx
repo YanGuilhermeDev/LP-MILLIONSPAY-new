@@ -12,7 +12,7 @@ const ctaData = {
   descricao:
     "Junte-se a mais de 50.000 empresas que já confiam na Millionspay para processar seus pagamentos de forma segura e eficiente.",
   primaryCTA: "Começar Gratuitamente",
-  secondaryCTA: "Falar com Vendas",
+  secondaryCTA: "Fale com suporte",
 }
 
 export function CTASection() {

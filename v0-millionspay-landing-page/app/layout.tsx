@@ -3,7 +3,6 @@ import type { Metadata } from 'next'
 import { Poppins, Exo_2 } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import { Footer } from '@/components/landing/footer'
-import { WhatsAppButton } from '@/components/landing/whatsapp-button'
 import './globals.css'
 
 const poppins = Poppins({
@@ -41,7 +40,6 @@ export default function RootLayout({
       <body className={`${helios.variable} ${poppins.variable} font-sans antialiased`}>
         {children}
         <Footer />
-        <WhatsAppButton />
         <Analytics />
       </body>
     </html>
