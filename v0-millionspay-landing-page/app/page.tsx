@@ -22,6 +22,9 @@ export default function Home() {
       {/* Seção de Taxas */}
       <TaxasSection />
 
+      {/* Seção de Depoimentos */}
+      <TestimonialSection />
+
       {/* Seção de Benefícios */}
       <BeneficiosSection />
 
@@ -33,9 +36,6 @@ export default function Home() {
 
       {/* Seção de Premiações */}
       <PremiacoesSection />
-
-      {/* Seção de Depoimentos */}
-      <TestimonialSection />
 
       {/* Seção de Formulário */}
       <FormularioSection />
